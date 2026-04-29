@@ -1,0 +1,69 @@
+[
+{"name":"IIT Kharagpur","location":"West Bengal","fees":200000,"rating":4.8,"placement_percentage":95},
+{"name":"Jadavpur University","location":"West Bengal","fees":15000,"rating":4.7,"placement_percentage":90},
+{"name":"NIT Durgapur","location":"West Bengal","fees":180000,"rating":4.5,"placement_percentage":85},
+{"name":"Calcutta University","location":"West Bengal","fees":10000,"rating":4.3,"placement_percentage":75},
+{"name":"Heritage Institute of Technology","location":"West Bengal","fees":120000,"rating":4.2,"placement_percentage":82},
+{"name":"Techno India University","location":"West Bengal","fees":110000,"rating":4.1,"placement_percentage":80},
+{"name":"Narula Institute of Technology","location":"West Bengal","fees":100000,"rating":4.0,"placement_percentage":78},
+{"name":"Brainware University","location":"West Bengal","fees":95000,"rating":3.8,"placement_percentage":72},
+
+{"name":"IIT Delhi","location":"Delhi","fees":220000,"rating":4.9,"placement_percentage":96},
+{"name":"Delhi Technological University","location":"Delhi","fees":150000,"rating":4.6,"placement_percentage":88},
+{"name":"NSUT Delhi","location":"Delhi","fees":150000,"rating":4.6,"placement_percentage":87},
+{"name":"Jamia Millia Islamia","location":"Delhi","fees":20000,"rating":4.5,"placement_percentage":85},
+{"name":"Indraprastha Institute of Information Technology","location":"Delhi","fees":300000,"rating":4.7,"placement_percentage":92},
+
+{"name":"IIT Bombay","location":"Maharashtra","fees":230000,"rating":4.9,"placement_percentage":97},
+{"name":"Institute of Chemical Technology","location":"Maharashtra","fees":180000,"rating":4.6,"placement_percentage":90},
+{"name":"College of Engineering Pune","location":"Maharashtra","fees":160000,"rating":4.5,"placement_percentage":88},
+{"name":"Symbiosis International University","location":"Maharashtra","fees":300000,"rating":4.5,"placement_percentage":88},
+{"name":"MIT World Peace University","location":"Maharashtra","fees":250000,"rating":4.4,"placement_percentage":86},
+
+{"name":"IIT Madras","location":"Tamil Nadu","fees":210000,"rating":4.9,"placement_percentage":96},
+{"name":"Anna University","location":"Tamil Nadu","fees":50000,"rating":4.5,"placement_percentage":86},
+{"name":"SRM Institute of Science and Technology","location":"Tamil Nadu","fees":240000,"rating":4.3,"placement_percentage":85},
+{"name":"VIT Vellore","location":"Tamil Nadu","fees":250000,"rating":4.4,"placement_percentage":88},
+{"name":"NIT Tiruchirappalli","location":"Tamil Nadu","fees":180000,"rating":4.8,"placement_percentage":94},
+
+{"name":"IIT Kanpur","location":"Uttar Pradesh","fees":200000,"rating":4.8,"placement_percentage":94},
+{"name":"Banaras Hindu University","location":"Uttar Pradesh","fees":20000,"rating":4.6,"placement_percentage":88},
+{"name":"Aligarh Muslim University","location":"Uttar Pradesh","fees":15000,"rating":4.4,"placement_percentage":83},
+{"name":"Galgotias University","location":"Uttar Pradesh","fees":180000,"rating":4.0,"placement_percentage":78},
+{"name":"Shiv Nadar University","location":"Uttar Pradesh","fees":350000,"rating":4.4,"placement_percentage":86},
+
+{"name":"IIT Roorkee","location":"Uttarakhand","fees":190000,"rating":4.7,"placement_percentage":93},
+{"name":"UPES Dehradun","location":"Uttarakhand","fees":280000,"rating":4.2,"placement_percentage":82},
+{"name":"Graphic Era University","location":"Uttarakhand","fees":220000,"rating":4.1,"placement_percentage":80},
+
+{"name":"IIT Guwahati","location":"Assam","fees":200000,"rating":4.8,"placement_percentage":94},
+{"name":"NIT Silchar","location":"Assam","fees":170000,"rating":4.3,"placement_percentage":80},
+
+{"name":"IIT Hyderabad","location":"Telangana","fees":210000,"rating":4.9,"placement_percentage":96},
+{"name":"NIT Warangal","location":"Telangana","fees":170000,"rating":4.7,"placement_percentage":91},
+{"name":"IIIT Hyderabad","location":"Telangana","fees":300000,"rating":4.8,"placement_percentage":95},
+
+{"name":"IISc Bangalore","location":"Karnataka","fees":200000,"rating":4.9,"placement_percentage":96},
+{"name":"RV College of Engineering","location":"Karnataka","fees":250000,"rating":4.6,"placement_percentage":90},
+{"name":"PES University","location":"Karnataka","fees":320000,"rating":4.5,"placement_percentage":89},
+{"name":"Christ University","location":"Karnataka","fees":200000,"rating":4.3,"placement_percentage":82},
+{"name":"NIT Surathkal","location":"Karnataka","fees":175000,"rating":4.7,"placement_percentage":92},
+
+{"name":"BITS Pilani","location":"Rajasthan","fees":400000,"rating":4.8,"placement_percentage":92},
+{"name":"MNIT Jaipur","location":"Rajasthan","fees":180000,"rating":4.5,"placement_percentage":88},
+
+{"name":"IIT Gandhinagar","location":"Gujarat","fees":200000,"rating":4.8,"placement_percentage":94},
+{"name":"DAIICT Gandhinagar","location":"Gujarat","fees":220000,"rating":4.5,"placement_percentage":88},
+
+{"name":"IIT Indore","location":"Madhya Pradesh","fees":200000,"rating":4.7,"placement_percentage":92},
+{"name":"MANIT Bhopal","location":"Madhya Pradesh","fees":170000,"rating":4.4,"placement_percentage":85},
+
+{"name":"Punjab Engineering College","location":"Chandigarh","fees":150000,"rating":4.5,"placement_percentage":88},
+{"name":"Chandigarh University","location":"Punjab","fees":200000,"rating":4.2,"placement_percentage":80},
+
+{"name":"NIT Jalandhar","location":"Punjab","fees":170000,"rating":4.4,"placement_percentage":85},
+
+{"name":"University of Hyderabad","location":"Telangana","fees":20000,"rating":4.6,"placement_percentage":87},
+
+{"name":"Tata Institute of Social Sciences","location":"Maharashtra","fees":50000,"rating":4.7,"placement_percentage":90}
+]
