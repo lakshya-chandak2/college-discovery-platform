@@ -1,29 +1,39 @@
 {
-  "name": "client",
-  "version": "0.1.0",
-  "private": true,
+  "name": "college-discovery-server",
+  "version": "1.0.0",
+  "description": "College Discovery Platform Backend API",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "nodemon --exec \"ts-node --transpile-only\" src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "seed": "ts-node prisma/seed.ts",
+    "prisma:generate": "npx prisma generate",
+    "prisma:migrate": "npx prisma migrate dev --name init",
+    "prisma:push": "npx prisma db push",
+    "setup": "npm run prisma:push && npm run prisma:generate && npm run seed"
   },
   "dependencies": {
-    "@react-oauth/google": "^0.13.5",
-    "framer-motion": "^12.38.0",
-    "lucide-react": "^1.14.0",
-    "next": "^16.2.4",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "@prisma/client": "^6.6.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.1",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.4",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.19.17",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   }
 }

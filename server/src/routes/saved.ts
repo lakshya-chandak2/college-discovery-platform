@@ -60,7 +60,7 @@ router.get('/', authMiddleware, async (req: AuthRequest, res: Response): Promise
 // DELETE /saved/:id — unsave a college
 router.delete('/:collegeId', authMiddleware, async (req: AuthRequest, res: Response): Promise<void> => {
   try {
-    const { collegeId } = req.params;
+    const collegeId = req.params.collegeId as string;
 
     const existing = await prisma.savedCollege.findUnique({
       where: { userId_collegeId: { userId: req.userId!, collegeId } },
