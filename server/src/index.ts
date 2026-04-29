@@ -12,11 +12,20 @@ import compareRoutes from './routes/compare';
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// ✅ CORS FIX (IMPORTANT)
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'https://college-discovery-platform-7bfc.onrender.com' // 👈 yaha apna actual Vercel URL daalna
+  ],
+  credentials: true
+}));
+
 // Middleware
-app.use(cors({ origin: ['http://localhost:3000', 'http://localhost:3001'], credentials: true }));
 app.use(express.json());
 
-// Simple request logger
+// Logger (optional but useful)
 app.use((req, _res, next) => {
   console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
   next();
@@ -33,12 +42,18 @@ app.get('/health', (_req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
+// Root test (optional but useful)
+app.get('/', (_req, res) => {
+  res.send('API is running 🚀');
+});
+
 // Global error handler
 app.use((err: any, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
   console.error('Unhandled error:', err);
   res.status(500).json({ error: 'Internal server error' });
 });
 
+// Start server
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
